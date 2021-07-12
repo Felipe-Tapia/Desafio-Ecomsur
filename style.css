@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(247, 247, 241);
+    color: cornsilk;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    flex-grow: 1; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    position: relative;
+    text-align: center;
+}
+.container h1{
+    font-size: 30px;
+}
+.buscador{
+    border:2px solid white;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: rgb(30, 30, 75);
+    margin-bottom: 5px;
+}
+
+.boton1{
+    background-color: #008CBA;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton1:hover {
+    background-color: #81cfe9;
+    color: rgb(15, 15, 15);
+}
+#pelicula{
+    border-radius: 1rem;
+    border: 1px solid #39c;
+    width: 50%;
+    padding: 6px;
+    font-size: large;
+}
+.datos{
+    border: 1px solid rgb(30, 30, 75);
+    background-color: white;
+    margin: auto;
+    min-width: 60%;
+    color: black;
+    border-radius: 2rem;
+    margin-bottom: 15px;
+}
+#poster{
+    margin-top: 10px;
+}
+.agregar{
+    margin-bottom: 10px;
+    background-color: #008CBA;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.agregar:hover {
+    background-color: #81cfe9;
+    color: rgb(15, 15, 15);
+}
+.carrito{
+    color: black;
+}
+.tabla{
+    border-radius: 15px;
+    line-height: 1.5em;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+	width: 90%;
+	max-width: 1000px;
+	overflow: hidden;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #fff;
+}
+td, th {
+    padding: 0.75em 1.5em;
+    text-align: left;
+}
+th {
+    background-color: rgb(30, 30, 75);
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+tbody th {
+	background-color: #008CBA;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #e8f0f3;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: #cbe3ec;
+}
+
+
+#comprar{
+    background-color: #d80101;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#comprar:hover {
+    background-color: #f7a59b;
+    color: rgb(15, 15, 15);
+}

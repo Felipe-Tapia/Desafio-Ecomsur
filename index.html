@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/object.js"></script>
+    <title>Ecommerce Ecomsur</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buscador">
+            <h1>Compra películas y series online!</h1>
+            <div id="peliculasForm" autocomplete="off">
+                <label for="Pelicula"></label>
+                <input type="text" id="pelicula" placeholder="Ingrese el titulo de una película o serie...">
+                <input type="button" value="buscar" onclick="buscar()" class="boton1">
+            </div>
+        </div>
+        <div class="datos"></div>
+        <div class="carrito">
+            <h2>Carrito de compras</h2>
+            <table  class="tabla">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Tipo</th>
+                        <th>Lenguaje</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaPeliculas">
+                </tbody>
+            </table>
+            <input type="button" value="Comprar" id="comprar">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html> 
